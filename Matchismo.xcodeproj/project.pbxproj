@@ -99,14 +99,14 @@
 		0329202E16BB596100C866BB = {
 			isa = PBXGroup;
 			children = (
+				0329207B16BB5BC900C866BB /* Card.h */,
+				0329207C16BB5BC900C866BB /* Card.m */,
 				0329207816BB599600C866BB /* Deck.h */,
 				0329207916BB599600C866BB /* Deck.m */,
 				0329207E16BB63C200C866BB /* PlayingCard.h */,
 				0329207F16BB63C200C866BB /* PlayingCard.m */,
 				0329208116BB6CEB00C866BB /* PlayingCardDeck.h */,
 				0329208216BB6CEB00C866BB /* PlayingCardDeck.m */,
-				0329207B16BB5BC900C866BB /* Card.h */,
-				0329207C16BB5BC900C866BB /* Card.m */,
 				0329204316BB596100C866BB /* Matchismo */,
 				0329206716BB596100C866BB /* MatchismoTests */,
 				0329203C16BB596100C866BB /* Frameworks */,
@@ -472,6 +472,7 @@
 				0329207416BB596100C866BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0329207516BB596100C866BB /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +481,7 @@
 				0329207716BB596100C866BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,12 +12,12 @@
 @interface CardGameViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount;
-@property (strong, nonatomic) Deck *deck;
+@property (strong, nonatomic) PlayingCardDeck *deck;
 @end
 
 @implementation CardGameViewController
 
-- (Deck *)deck {
+- (PlayingCardDeck *)deck {
     if (!_deck) {
         _deck = [[PlayingCardDeck alloc] init];
     }
